@@ -39,7 +39,7 @@ The header file is quite clear:)
 ```objective-c
 @interface FSVoiceBubble : UIView
 
-@property (strong, nonatomic) IBInspectable NSURL   *contentURL;
+@property (strong, nonatomic) NSURL   *contentURL;
 @property (strong, nonatomic) IBInspectable UIColor *waveColor;
 @property (strong, nonatomic) IBInspectable UIColor *animatingWaveColor;
 @property (strong, nonatomic) IBInspectable UIImage *bubbleImage;
