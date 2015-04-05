@@ -26,7 +26,7 @@ A short light-weight voice bubble to let you: <br/>
 pod "FSVoiceBubble"
 ```
 
-* manually
+* manually:
 Drag all Classes under Pod/Classes into your project. Drag `FSVoiceBubble.bundle`(Pod/Assets) into your project.
 
 ## Usage
