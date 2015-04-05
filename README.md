@@ -5,9 +5,9 @@
 [![Platform](https://img.shields.io/cocoapods/p/FSVoiceBubble.svg?style=flat)](http://cocoapods.org/pods/FSVoiceBubble)
 
 A short light-weight voice bubble to let you: <br/>
-1. Play a short audio
-2. Show wave effect while playing
-3. Customize your own style(wave color、bubble image .etc)
+1. Play a short audio<br/>
+2. Show wave effect while playing<br/>
+3. Customize your own style(wave color、bubble image .etc)<br/>
 
 ## Screenshots
 
