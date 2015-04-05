@@ -10,6 +10,10 @@
 
 @class FSVoiceBubble;
 
+#ifndef IBInspectable
+#define IBInspectable
+#endif
+
 @protocol FSVoiceBubbleDelegate <NSObject>
 
 - (void)voiceBubbleDidStartPlaying:(FSVoiceBubble *)voiceBubble;
