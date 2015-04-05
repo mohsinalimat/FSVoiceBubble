@@ -12,9 +12,10 @@ A short light-weight voice bubble to let you: <br/>
 ## Screenshots
 
 ### It's strong enough to be embedded into tableView
+![fsvoicebubble-tableview](https://cloud.githubusercontent.com/assets/5186464/6996648/791ff52a-dbc6-11e4-9d93-c184f1b9b0f9.png)
 
-### A colorful example
-
+### A Colorful Example
+![fsvoicebubble-style](https://cloud.githubusercontent.com/assets/5186464/6996650/8475bb8a-dbc6-11e4-824c-fe1616f4e556.gif)
 ###
 
 ## Installation
