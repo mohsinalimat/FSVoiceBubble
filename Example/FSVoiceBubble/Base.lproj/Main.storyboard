@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="S62-EJ-DRl">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="LZH-B2-6el">
+            <objects>
+                <navigationController id="S62-EJ-DRl" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UtD-1t-l9O">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="g4M-AY-gGD" kind="relationship" relationship="rootViewController" id="Uie-MA-88Z"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JZC-c7-OSC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-226" y="241"/>
+        </scene>
+        <!--FSVoiceBubble-->
+        <scene sceneID="bpB-Wo-umk">
+            <objects>
+                <tableViewController id="g4M-AY-gGD" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="M8P-Qi-TKY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="IDS-40-ca9">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="oOh-Fb-o2d" style="IBUITableViewCellStyleDefault" id="rQv-9M-eLC">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rQv-9M-eLC" id="CSb-Np-m8n">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Style Customization Example" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oOh-Fb-o2d">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="vXZ-lx-hvc" kind="push" id="d6D-EM-mB9"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="GTy-5q-e2y" style="IBUITableViewCellStyleDefault" id="Zos-WL-e9n">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Zos-WL-e9n" id="lom-tR-GEX">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="TableView Example" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GTy-5q-e2y">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="GeV-Ob-6Bf" kind="push" id="0eR-yq-aDl"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="g4M-AY-gGD" id="18B-0d-JgM"/>
+                            <outlet property="delegate" destination="g4M-AY-gGD" id="HRb-WO-jVJ"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="FSVoiceBubble" id="l3L-bY-1E6"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zFc-ad-PtS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="256" y="241"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="rN2-9P-deR">
+            <objects>
+                <tableViewController id="GeV-Ob-6Bf" customClass="FSTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="88" sectionHeaderHeight="10" sectionFooterHeight="10" id="a2m-1I-rru">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="vHs-l6-ZvT" customClass="FSVoiceBubbleCell">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vHs-l6-ZvT" id="LOd-Zc-btk">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hh1-8K-9Ea">
+                                            <rect key="frame" x="8" y="19" width="50" height="50"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="50" id="J60-CG-mvI"/>
+                                                <constraint firstAttribute="width" constant="50" id="aQ4-Vy-JwA"/>
+                                            </constraints>
+                                        </imageView>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fPB-jj-g0G" customClass="FSVoiceBubble">
+                                            <rect key="frame" x="61" y="29" width="110" height="30"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="30" id="juq-dQ-1S4"/>
+                                                <constraint firstAttribute="width" constant="110" id="qus-4b-E1K"/>
+                                            </constraints>
+                                            <connections>
+                                                <outlet property="delegate" destination="GeV-Ob-6Bf" id="6uD-MG-MPa"/>
+                                            </connections>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="fPB-jj-g0G" firstAttribute="leading" secondItem="Hh1-8K-9Ea" secondAttribute="trailing" constant="3" id="N7v-tC-fia"/>
+                                        <constraint firstAttribute="centerY" secondItem="Hh1-8K-9Ea" secondAttribute="centerY" id="R6s-Vt-ttH"/>
+                                        <constraint firstItem="Hh1-8K-9Ea" firstAttribute="leading" secondItem="LOd-Zc-btk" secondAttribute="leading" constant="8" id="XDu-7u-p57"/>
+                                        <constraint firstAttribute="centerY" secondItem="fPB-jj-g0G" secondAttribute="centerY" id="Za8-HD-XoD"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="portraitImageView" destination="Hh1-8K-9Ea" id="ZHG-5w-SF0"/>
+                                    <outlet property="voiceBubble" destination="fPB-jj-g0G" id="H4f-FL-g52"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell_invert" id="6VT-Rd-zcU" customClass="FSVoiceBubbleCell">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6VT-Rd-zcU" id="Iba-cC-nGa">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SaU-Dl-cTK" customClass="FSVoiceBubble">
+                                            <rect key="frame" x="149" y="29" width="110" height="30"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="30" id="X0d-Ri-pEl"/>
+                                                <constraint firstAttribute="width" constant="110" id="tRT-bp-Eyd"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="invert" value="YES"/>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <outlet property="delegate" destination="GeV-Ob-6Bf" id="p5J-jx-K4Q"/>
+                                            </connections>
+                                        </view>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="N8O-HI-STj">
+                                            <rect key="frame" x="262" y="19" width="50" height="50"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="50" id="V3f-RH-TYg"/>
+                                                <constraint firstAttribute="width" constant="50" id="fvA-Vj-XjP"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="centerY" secondItem="N8O-HI-STj" secondAttribute="centerY" id="W9U-V6-sGO"/>
+                                        <constraint firstItem="N8O-HI-STj" firstAttribute="leading" secondItem="SaU-Dl-cTK" secondAttribute="trailing" constant="3" id="Y1Z-Hv-xcf"/>
+                                        <constraint firstAttribute="trailing" secondItem="N8O-HI-STj" secondAttribute="trailing" constant="8" id="aT2-Qf-Xkl"/>
+                                        <constraint firstAttribute="centerY" secondItem="SaU-Dl-cTK" secondAttribute="centerY" id="mxk-yu-VMw"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="portraitImageView" destination="N8O-HI-STj" id="ZHo-8V-PW1"/>
+                                    <outlet property="voiceBubble" destination="SaU-Dl-cTK" id="ZF0-kI-Guv"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="GeV-Ob-6Bf" id="RWu-aF-bJU"/>
+                            <outlet property="delegate" destination="GeV-Ob-6Bf" id="xry-28-YCU"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="eS5-Fr-djx"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7XP-sz-dfl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="693" y="589"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="FSViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TKW-6y-X4u" customClass="FSVoiceBubble">
+                                <rect key="frame" x="174" y="113" width="110" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="mpA-Hx-Z2M"/>
+                                    <constraint firstAttribute="height" constant="30" id="obP-GU-Uwu"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="bubbleImage" value="fs_chat_bubble_blue"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="waveColor">
+                                        <color key="value" red="0.0" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YWd-22-1Mr" customClass="FSVoiceBubble">
+                                <rect key="frame" x="25" y="179" width="110" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dSr-Ky-7Ay" customClass="FSVoiceBubble">
+                                <rect key="frame" x="174" y="237" width="110" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3yI-1F-cXM" customClass="FSVoiceBubble">
+                                <rect key="frame" x="25" y="289" width="110" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92941176470588238" green="0.92941176470588238" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="TKW-6y-X4u" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="174" id="0xc-Kg-z1d"/>
+                            <constraint firstItem="3yI-1F-cXM" firstAttribute="trailing" secondItem="YWd-22-1Mr" secondAttribute="trailing" id="4s2-PW-ncZ"/>
+                            <constraint firstItem="YWd-22-1Mr" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="25" id="Ata-1b-OBD"/>
+                            <constraint firstItem="3yI-1F-cXM" firstAttribute="top" secondItem="YWd-22-1Mr" secondAttribute="bottom" constant="80" id="EeG-cE-fGf"/>
+                            <constraint firstItem="dSr-Ky-7Ay" firstAttribute="trailing" secondItem="TKW-6y-X4u" secondAttribute="trailing" id="IAc-5t-8S5"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="3yI-1F-cXM" secondAttribute="bottom" constant="249" id="OhL-cE-aAU"/>
+                            <constraint firstItem="dSr-Ky-7Ay" firstAttribute="top" secondItem="TKW-6y-X4u" secondAttribute="bottom" constant="94" id="PJw-2t-fsg"/>
+                            <constraint firstAttribute="trailing" secondItem="YWd-22-1Mr" secondAttribute="trailing" constant="185" id="Wki-E5-Gbq"/>
+                            <constraint firstItem="TKW-6y-X4u" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="49" id="ZLF-Yz-Nw9"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="dSr-Ky-7Ay" secondAttribute="bottom" constant="301" id="k4X-re-60R"/>
+                            <constraint firstItem="YWd-22-1Mr" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="115" id="kB6-cN-SKS"/>
+                            <constraint firstItem="dSr-Ky-7Ay" firstAttribute="leading" secondItem="TKW-6y-X4u" secondAttribute="leading" id="kVd-7o-rkn"/>
+                            <constraint firstItem="3yI-1F-cXM" firstAttribute="leading" secondItem="YWd-22-1Mr" secondAttribute="leading" id="pfJ-En-E1A"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="YWd-22-1Mr" secondAttribute="bottom" constant="359" id="sht-Xk-Khb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="RgW-0n-TkY"/>
+                    <connections>
+                        <outlet property="bubble1" destination="TKW-6y-X4u" id="uFx-zw-mTy"/>
+                        <outlet property="bubble2" destination="YWd-22-1Mr" id="gyo-WB-3dV"/>
+                        <outlet property="bubble3" destination="dSr-Ky-7Ay" id="rXK-ev-P54"/>
+                        <outlet property="bubble4" destination="3yI-1F-cXM" id="IeS-Oz-YbO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="693" y="-99"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="fs_chat_bubble_blue" width="190" height="53"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

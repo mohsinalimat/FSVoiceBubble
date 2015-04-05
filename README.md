@@ -1,28 +1,80 @@
 # FSVoiceBubble
 
-[![CI Status](http://img.shields.io/travis/f33chobits/FSVoiceBubble.svg?style=flat)](https://travis-ci.org/f33chobits/FSVoiceBubble)
 [![Version](https://img.shields.io/cocoapods/v/FSVoiceBubble.svg?style=flat)](http://cocoapods.org/pods/FSVoiceBubble)
 [![License](https://img.shields.io/cocoapods/l/FSVoiceBubble.svg?style=flat)](http://cocoapods.org/pods/FSVoiceBubble)
 [![Platform](https://img.shields.io/cocoapods/p/FSVoiceBubble.svg?style=flat)](http://cocoapods.org/pods/FSVoiceBubble)
 
-## Usage
+A short light-weight voice bubble to let you: <br/>
+1. Play a short audio
+2. Show wave effect while playing
+3. Customize your own style(wave color、bubble image .etc)
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## Screenshots
 
-## Requirements
+### It's strong enough to be embedded into tableView
+
+### A colorful example
+
+###
 
 ## Installation
 
-FSVoiceBubble is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+* cocoapods:
 
 ```ruby
 pod "FSVoiceBubble"
 ```
 
+* manually
+Drag all Classes under Pod/Classes into your project. Drag `FSVoiceBubble.bundle`(Pod/Assets) into your project.
+
+## Usage
+
+```objective-c
+#import "FSVoiceBubble.h"
+```
+
+The header file is quite clear:)
+```objective-c
+@interface FSVoiceBubble : UIView
+
+@property (strong, nonatomic) IBInspectable NSURL   *contentURL;
+@property (strong, nonatomic) IBInspectable UIColor *waveColor;
+@property (strong, nonatomic) IBInspectable UIColor *animatingWaveColor;
+@property (strong, nonatomic) IBInspectable UIImage *bubbleImage;
+@property (assign, nonatomic) IBInspectable BOOL    invert;
+@property (assign, nonatomic) IBInspectable BOOL    exclusive;
+@property (assign, nonatomic) IBInspectable BOOL    durationInsideBubble;
+@property (assign, nonatomic) IBOutlet id<FSVoiceBubbleDelegate> delegate;
+
+- (void)prepareToPlay;
+- (void)play;
+- (void)pause;
+- (void)stop;
+
+- (void)startAnimating;
+- (void)stopAnimating;
+
+@end
+
+@protocol FSVoiceBubbleDelegate <NSObject>
+
+- (void)voiceBubbleDidStartPlaying:(FSVoiceBubble *)voiceBubble;
+
+@end
+
+```
+
+## Notice
+* The purpose for this lib is to play short voice files. Don't try to play an audio longer the 60 seconds
+* Only support local file at this moment.
+
+## Requirements
+iOS7.0
+
 ## Author
 
-f33chobits, =
+Wenchao Ding, f33chobits@gmail.com
 
 ## License
 

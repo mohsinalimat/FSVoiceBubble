@@ -1,0 +1,896 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		025969398BAA1C3B1F45295B /* Pods-FSVoiceBubble-FSVoiceBubble-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E293A7AAB5B5A1BF2EB8C1EC /* Pods-FSVoiceBubble-FSVoiceBubble-dummy.m */; };
+		1774040A32661F6B819F82C0 /* UIImage+FSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3940AC07AB02DD164E5EBA /* UIImage+FSExtension.m */; };
+		22C7881C491C6C071023B3B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B5A0B7F1A7236BD8C92A618 /* Foundation.framework */; };
+		28E9D00244698B6DC6B80D6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B5A0B7F1A7236BD8C92A618 /* Foundation.framework */; };
+		2CC1DBFDCCF204BE81364CF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B5A0B7F1A7236BD8C92A618 /* Foundation.framework */; };
+		2D767C07011241DA0B0E3478 /* fs_icon_wave_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAA36E56B7762CE5BD46C4A /* fs_icon_wave_0@2x.png */; };
+		37019FDC33517753CE58F3BA /* FSVoiceBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A09225FBBCB4A5D801C188C /* FSVoiceBubble.m */; };
+		8C7DB5D53D88CFFCF1310FDB /* fs_icon_wave_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 262AC4DC89E88872F94DBF49 /* fs_icon_wave_2@2x.png */; };
+		93D9B36C70E5219EC2EB3C63 /* UIImage+FSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B1E16664A2C52F7DC2940CD /* UIImage+FSExtension.h */; };
+		9B95AD4D4C8E2DE7CE8C2B36 /* FSVoiceBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A09225FBBCB4A5D801C188C /* FSVoiceBubble.m */; };
+		A88053141F21DEF0CA87EFC0 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B6251825406350C0BBFF84 /* Pods-Tests-dummy.m */; };
+		AAB94F59F23991B88DEF9B83 /* fs_chat_bubble@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D876F15A8CF096E2BA43336 /* fs_chat_bubble@2x.png */; };
+		B160662E59FFB6A1977242D2 /* UIImage+FSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3940AC07AB02DD164E5EBA /* UIImage+FSExtension.m */; };
+		B32ED965164F75862A673DAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B5A0B7F1A7236BD8C92A618 /* Foundation.framework */; };
+		B7CC400DC4A100C6A8D49F98 /* Pods-FSVoiceBubble-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1898B528F337BAB3EEB1EB /* Pods-FSVoiceBubble-dummy.m */; };
+		C5692EA19EA7C01D649E8BF2 /* fs_icon_wave_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 262AC4DC89E88872F94DBF49 /* fs_icon_wave_2@2x.png */; };
+		C9BF9B1B1EFD17747F7503EE /* FSVoiceBubble.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CC7B7516B9447BA056D27D9 /* FSVoiceBubble.h */; };
+		CAAEFECFC5F1F70B48BF2989 /* UIImage+FSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B1E16664A2C52F7DC2940CD /* UIImage+FSExtension.h */; };
+		D714C880E7F9148DC24771F7 /* fs_chat_bubble@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D876F15A8CF096E2BA43336 /* fs_chat_bubble@2x.png */; };
+		D7F0D412FFF3F226EAE7F8D2 /* fs_icon_wave_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC0CD6E9D4FE10655FF4D1F /* fs_icon_wave_1@2x.png */; };
+		E6AE6878D9EFE8AE2C52A8C8 /* fs_icon_wave_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FAA36E56B7762CE5BD46C4A /* fs_icon_wave_0@2x.png */; };
+		E71DAB3D36059F97E334A1ED /* Pods-Tests-FSVoiceBubble-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1595D66BD0C8245A7EE49DA6 /* Pods-Tests-FSVoiceBubble-dummy.m */; };
+		EB0F54D826704054142112F2 /* FSVoiceBubble.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CC7B7516B9447BA056D27D9 /* FSVoiceBubble.h */; };
+		F93CA02D79EC2B72460D4D80 /* fs_icon_wave_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC0CD6E9D4FE10655FF4D1F /* fs_icon_wave_1@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F08B11D176FE9C5BBBB30CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F49123F4EAD21BF3DE5452D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 239B4B41A9E3E8CC38106ED0;
+			remoteInfo = "Pods-FSVoiceBubble-FSVoiceBubble-FSVoiceBubble";
+		};
+		3629841C08DAD225B638D23F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F49123F4EAD21BF3DE5452D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52903C80C771E832485F8FF7;
+			remoteInfo = "Pods-Tests-FSVoiceBubble-FSVoiceBubble";
+		};
+		57437B9AF314CE123175FFB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F49123F4EAD21BF3DE5452D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3B8F87B6F4254C552FCD410;
+			remoteInfo = "Pods-FSVoiceBubble-FSVoiceBubble";
+		};
+		FE3214B73ED3B23E651D2323 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F49123F4EAD21BF3DE5452D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5D215C3D4A50C4E83807167;
+			remoteInfo = "Pods-Tests-FSVoiceBubble";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08AD132B798AB10A37BCEEBA /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0D1898B528F337BAB3EEB1EB /* Pods-FSVoiceBubble-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FSVoiceBubble-dummy.m"; sourceTree = "<group>"; };
+		11439DB01C6A81D93ED3DB90 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		14627EFCD595F7BB64BB1426 /* Pods-Tests-FSVoiceBubble-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-FSVoiceBubble-prefix.pch"; path = "../Pods-Tests-FSVoiceBubble/Pods-Tests-FSVoiceBubble-prefix.pch"; sourceTree = "<group>"; };
+		1595D66BD0C8245A7EE49DA6 /* Pods-Tests-FSVoiceBubble-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-FSVoiceBubble-dummy.m"; path = "../Pods-Tests-FSVoiceBubble/Pods-Tests-FSVoiceBubble-dummy.m"; sourceTree = "<group>"; };
+		1FAA36E56B7762CE5BD46C4A /* fs_icon_wave_0@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "fs_icon_wave_0@2x.png"; sourceTree = "<group>"; };
+		2098A5247B90C12F718B83B8 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		23C47ECECAFC7173BD414741 /* Pods-FSVoiceBubble-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FSVoiceBubble-acknowledgements.markdown"; sourceTree = "<group>"; };
+		262AC4DC89E88872F94DBF49 /* fs_icon_wave_2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "fs_icon_wave_2@2x.png"; sourceTree = "<group>"; };
+		3D6BF967BB6405644B906255 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		4009F488F9CEA545D4CB52C5 /* FSVoiceBubble.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSVoiceBubble.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		58074F5BD0020B47D73212AD /* libPods-FSVoiceBubble.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FSVoiceBubble.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D876F15A8CF096E2BA43336 /* fs_chat_bubble@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "fs_chat_bubble@2x.png"; sourceTree = "<group>"; };
+		60F6B28E6674284059CA9EA4 /* Pods-FSVoiceBubble-FSVoiceBubble-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSVoiceBubble-FSVoiceBubble-Private.xcconfig"; sourceTree = "<group>"; };
+		6188A74830B754004EC28F3E /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63742877FDE92E41EFD29E28 /* Pods-FSVoiceBubble-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FSVoiceBubble-resources.sh"; sourceTree = "<group>"; };
+		6B5A0B7F1A7236BD8C92A618 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6CC7B7516B9447BA056D27D9 /* FSVoiceBubble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FSVoiceBubble.h; sourceTree = "<group>"; };
+		6E3940AC07AB02DD164E5EBA /* UIImage+FSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FSExtension.m"; sourceTree = "<group>"; };
+		814A00C5BA53D890CB370468 /* Pods-Tests-FSVoiceBubble-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-FSVoiceBubble-Private.xcconfig"; path = "../Pods-Tests-FSVoiceBubble/Pods-Tests-FSVoiceBubble-Private.xcconfig"; sourceTree = "<group>"; };
+		8B1E16664A2C52F7DC2940CD /* UIImage+FSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+FSExtension.h"; sourceTree = "<group>"; };
+		92842AF8403AFAC8C309CCAD /* Pods-FSVoiceBubble-FSVoiceBubble-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FSVoiceBubble-FSVoiceBubble-prefix.pch"; sourceTree = "<group>"; };
+		991EED35F54CE971E4839C14 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A09225FBBCB4A5D801C188C /* FSVoiceBubble.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FSVoiceBubble.m; sourceTree = "<group>"; };
+		A02F664F52CD2B5A0FD55BEF /* Pods-FSVoiceBubble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSVoiceBubble.debug.xcconfig"; sourceTree = "<group>"; };
+		AD5104446B01863F8882471F /* FSVoiceBubble.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSVoiceBubble.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B86002CD4EB8D8BC32D3AF95 /* Pods-Tests-FSVoiceBubble.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-FSVoiceBubble.xcconfig"; path = "../Pods-Tests-FSVoiceBubble/Pods-Tests-FSVoiceBubble.xcconfig"; sourceTree = "<group>"; };
+		BAC0CD6E9D4FE10655FF4D1F /* fs_icon_wave_1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "fs_icon_wave_1@2x.png"; sourceTree = "<group>"; };
+		C6E0916174499FF7B18544D1 /* libPods-FSVoiceBubble-FSVoiceBubble.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FSVoiceBubble-FSVoiceBubble.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA03AF09083E8B34120E29F6 /* libPods-Tests-FSVoiceBubble.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-FSVoiceBubble.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF69CEABCEC2E675646727C2 /* Pods-FSVoiceBubble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSVoiceBubble.release.xcconfig"; sourceTree = "<group>"; };
+		D1C17DF89CA02229CFC48745 /* Pods-FSVoiceBubble-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FSVoiceBubble-acknowledgements.plist"; sourceTree = "<group>"; };
+		D2B6251825406350C0BBFF84 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		DC7F78AEAB778B5B38A54274 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DCF9D265E4736A1125A28243 /* Pods-FSVoiceBubble-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FSVoiceBubble-environment.h"; sourceTree = "<group>"; };
+		E293A7AAB5B5A1BF2EB8C1EC /* Pods-FSVoiceBubble-FSVoiceBubble-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FSVoiceBubble-FSVoiceBubble-dummy.m"; sourceTree = "<group>"; };
+		F282671DB9ED76E129295401 /* Pods-FSVoiceBubble-FSVoiceBubble.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSVoiceBubble-FSVoiceBubble.xcconfig"; sourceTree = "<group>"; };
+		F793FC06FEB89D90723A9C50 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16E71242A3336ABBC11A30B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26283D79BFD5C78F7197B0A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883C7BEBE53A2D99614AC95D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32ED965164F75862A673DAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35AD95583CA535C9BF52478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC1DBFDCCF204BE81364CF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD48040A450DE250F481B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E9D00244698B6DC6B80D6A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89CC7199FC5AD40F9BD9A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C7881C491C6C071023B3B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02A2DCA1E54D5CC48531B744 /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DC7F78AEAB778B5B38A54274 /* Pods-Tests-acknowledgements.markdown */,
+				11439DB01C6A81D93ED3DB90 /* Pods-Tests-acknowledgements.plist */,
+				D2B6251825406350C0BBFF84 /* Pods-Tests-dummy.m */,
+				3D6BF967BB6405644B906255 /* Pods-Tests-environment.h */,
+				2098A5247B90C12F718B83B8 /* Pods-Tests-resources.sh */,
+				08AD132B798AB10A37BCEEBA /* Pods-Tests.debug.xcconfig */,
+				F793FC06FEB89D90723A9C50 /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		1AA0E5B9EDDF6FA992C45745 /* FSVoiceBubble */ = {
+			isa = PBXGroup;
+			children = (
+				8A4EF9E570FCEF87150DBBEA /* Pod */,
+				6A19B85718DE7A985E07B872 /* Resources */,
+				D764C18CBAA1B7D0F949D5D5 /* Support Files */,
+			);
+			name = FSVoiceBubble;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		21EF2EDA34BEF125528A170C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD5104446B01863F8882471F /* FSVoiceBubble.bundle */,
+				4009F488F9CEA545D4CB52C5 /* FSVoiceBubble.bundle */,
+				58074F5BD0020B47D73212AD /* libPods-FSVoiceBubble.a */,
+				C6E0916174499FF7B18544D1 /* libPods-FSVoiceBubble-FSVoiceBubble.a */,
+				6188A74830B754004EC28F3E /* libPods-Tests.a */,
+				CA03AF09083E8B34120E29F6 /* libPods-Tests-FSVoiceBubble.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23EFE13C13DC1409D294AAE6 /* Pods-FSVoiceBubble */ = {
+			isa = PBXGroup;
+			children = (
+				23C47ECECAFC7173BD414741 /* Pods-FSVoiceBubble-acknowledgements.markdown */,
+				D1C17DF89CA02229CFC48745 /* Pods-FSVoiceBubble-acknowledgements.plist */,
+				0D1898B528F337BAB3EEB1EB /* Pods-FSVoiceBubble-dummy.m */,
+				DCF9D265E4736A1125A28243 /* Pods-FSVoiceBubble-environment.h */,
+				63742877FDE92E41EFD29E28 /* Pods-FSVoiceBubble-resources.sh */,
+				A02F664F52CD2B5A0FD55BEF /* Pods-FSVoiceBubble.debug.xcconfig */,
+				CF69CEABCEC2E675646727C2 /* Pods-FSVoiceBubble.release.xcconfig */,
+			);
+			name = "Pods-FSVoiceBubble";
+			path = "Target Support Files/Pods-FSVoiceBubble";
+			sourceTree = "<group>";
+		};
+		2C2238B4A27FD3C3E46C2C8D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AA0E5B9EDDF6FA992C45745 /* FSVoiceBubble */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4D6108162E4E795F677BA7ED /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6CC7B7516B9447BA056D27D9 /* FSVoiceBubble.h */,
+				9A09225FBBCB4A5D801C188C /* FSVoiceBubble.m */,
+				8B1E16664A2C52F7DC2940CD /* UIImage+FSExtension.h */,
+				6E3940AC07AB02DD164E5EBA /* UIImage+FSExtension.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		68AE736669189DF88247FC37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A43A0AA0F1E584D5A2526A24 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A19B85718DE7A985E07B872 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EEDD3FBFE0CACFA88BB8A212 /* Pod */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8A4EF9E570FCEF87150DBBEA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4D6108162E4E795F677BA7ED /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		A43A0AA0F1E584D5A2526A24 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6B5A0B7F1A7236BD8C92A618 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CC387B6721183F9C5FB7E044 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				23EFE13C13DC1409D294AAE6 /* Pods-FSVoiceBubble */,
+				02A2DCA1E54D5CC48531B744 /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CDE775780E1FF7DAD445DF20 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5D876F15A8CF096E2BA43336 /* fs_chat_bubble@2x.png */,
+				1FAA36E56B7762CE5BD46C4A /* fs_icon_wave_0@2x.png */,
+				BAC0CD6E9D4FE10655FF4D1F /* fs_icon_wave_1@2x.png */,
+				262AC4DC89E88872F94DBF49 /* fs_icon_wave_2@2x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		D764C18CBAA1B7D0F949D5D5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F282671DB9ED76E129295401 /* Pods-FSVoiceBubble-FSVoiceBubble.xcconfig */,
+				60F6B28E6674284059CA9EA4 /* Pods-FSVoiceBubble-FSVoiceBubble-Private.xcconfig */,
+				E293A7AAB5B5A1BF2EB8C1EC /* Pods-FSVoiceBubble-FSVoiceBubble-dummy.m */,
+				92842AF8403AFAC8C309CCAD /* Pods-FSVoiceBubble-FSVoiceBubble-prefix.pch */,
+				B86002CD4EB8D8BC32D3AF95 /* Pods-Tests-FSVoiceBubble.xcconfig */,
+				814A00C5BA53D890CB370468 /* Pods-Tests-FSVoiceBubble-Private.xcconfig */,
+				1595D66BD0C8245A7EE49DA6 /* Pods-Tests-FSVoiceBubble-dummy.m */,
+				14627EFCD595F7BB64BB1426 /* Pods-Tests-FSVoiceBubble-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-FSVoiceBubble-FSVoiceBubble";
+			sourceTree = "<group>";
+		};
+		E8BB7552DA73F575307CC8C3 = {
+			isa = PBXGroup;
+			children = (
+				991EED35F54CE971E4839C14 /* Podfile */,
+				2C2238B4A27FD3C3E46C2C8D /* Development Pods */,
+				68AE736669189DF88247FC37 /* Frameworks */,
+				21EF2EDA34BEF125528A170C /* Products */,
+				CC387B6721183F9C5FB7E044 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		EEDD3FBFE0CACFA88BB8A212 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CDE775780E1FF7DAD445DF20 /* Assets */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		046361603ACC48740A27770D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0F54D826704054142112F2 /* FSVoiceBubble.h in Headers */,
+				CAAEFECFC5F1F70B48BF2989 /* UIImage+FSExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF4FBACD01AD6FD2CBC4200 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BF9B1B1EFD17747F7503EE /* FSVoiceBubble.h in Headers */,
+				93D9B36C70E5219EC2EB3C63 /* UIImage+FSExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		239B4B41A9E3E8CC38106ED0 /* Pods-FSVoiceBubble-FSVoiceBubble-FSVoiceBubble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99DC58A2B9642F7AC475F5B /* Build configuration list for PBXNativeTarget "Pods-FSVoiceBubble-FSVoiceBubble-FSVoiceBubble" */;
+			buildPhases = (
+				739BE1A555977F8AF188AA4C /* Sources */,
+				26283D79BFD5C78F7197B0A6 /* Frameworks */,
+				2A382647E166E3A8C51FFA45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FSVoiceBubble-FSVoiceBubble-FSVoiceBubble";
+			productName = "Pods-FSVoiceBubble-FSVoiceBubble-FSVoiceBubble";
+			productReference = 4009F488F9CEA545D4CB52C5 /* FSVoiceBubble.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		52903C80C771E832485F8FF7 /* Pods-Tests-FSVoiceBubble-FSVoiceBubble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8324E24A70E54AA1533A00C4 /* Build configuration list for PBXNativeTarget "Pods-Tests-FSVoiceBubble-FSVoiceBubble" */;
+			buildPhases = (
+				E287AD463B1B8794AE69F172 /* Sources */,
+				16E71242A3336ABBC11A30B7 /* Frameworks */,
+				65F70485793340D3D1785D38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-FSVoiceBubble-FSVoiceBubble";
+			productName = "Pods-Tests-FSVoiceBubble-FSVoiceBubble";
+			productReference = AD5104446B01863F8882471F /* FSVoiceBubble.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		52F3E3ED9AB3CA9903C22E55 /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F36FA41E2A8E125AB4A11455 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				BFDC62F5A0D8D1C794454557 /* Sources */,
+				C35AD95583CA535C9BF52478 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B156B26921B7CC371D107E45 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = 6188A74830B754004EC28F3E /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A3B8F87B6F4254C552FCD410 /* Pods-FSVoiceBubble-FSVoiceBubble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EC8F042EE0D911468DFA65D /* Build configuration list for PBXNativeTarget "Pods-FSVoiceBubble-FSVoiceBubble" */;
+			buildPhases = (
+				64AC434CE2BFC978484FB873 /* Sources */,
+				883C7BEBE53A2D99614AC95D /* Frameworks */,
+				5CF4FBACD01AD6FD2CBC4200 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				242C1F268BD599C6F57A9149 /* PBXTargetDependency */,
+			);
+			name = "Pods-FSVoiceBubble-FSVoiceBubble";
+			productName = "Pods-FSVoiceBubble-FSVoiceBubble";
+			productReference = C6E0916174499FF7B18544D1 /* libPods-FSVoiceBubble-FSVoiceBubble.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AB4E2A6A063C6749624A8461 /* Pods-FSVoiceBubble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52C63128675580A9A32B8CE3 /* Build configuration list for PBXNativeTarget "Pods-FSVoiceBubble" */;
+			buildPhases = (
+				CB82B83A13F9FE645821D94F /* Sources */,
+				F89CC7199FC5AD40F9BD9A84 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7E8B105572A1CBFC889E83B /* PBXTargetDependency */,
+			);
+			name = "Pods-FSVoiceBubble";
+			productName = "Pods-FSVoiceBubble";
+			productReference = 58074F5BD0020B47D73212AD /* libPods-FSVoiceBubble.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E5D215C3D4A50C4E83807167 /* Pods-Tests-FSVoiceBubble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 766B1372BB5410101FB3463E /* Build configuration list for PBXNativeTarget "Pods-Tests-FSVoiceBubble" */;
+			buildPhases = (
+				F6130FB8AD532ED4A7F91832 /* Sources */,
+				DFD48040A450DE250F481B68 /* Frameworks */,
+				046361603ACC48740A27770D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				718537669A7C126D08A53D71 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-FSVoiceBubble";
+			productName = "Pods-Tests-FSVoiceBubble";
+			productReference = CA03AF09083E8B34120E29F6 /* libPods-Tests-FSVoiceBubble.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F49123F4EAD21BF3DE5452D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = FF755B8C294CB20A47540A89 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E8BB7552DA73F575307CC8C3;
+			productRefGroup = 21EF2EDA34BEF125528A170C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB4E2A6A063C6749624A8461 /* Pods-FSVoiceBubble */,
+				A3B8F87B6F4254C552FCD410 /* Pods-FSVoiceBubble-FSVoiceBubble */,
+				239B4B41A9E3E8CC38106ED0 /* Pods-FSVoiceBubble-FSVoiceBubble-FSVoiceBubble */,
+				52F3E3ED9AB3CA9903C22E55 /* Pods-Tests */,
+				E5D215C3D4A50C4E83807167 /* Pods-Tests-FSVoiceBubble */,
+				52903C80C771E832485F8FF7 /* Pods-Tests-FSVoiceBubble-FSVoiceBubble */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A382647E166E3A8C51FFA45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB94F59F23991B88DEF9B83 /* fs_chat_bubble@2x.png in Resources */,
+				E6AE6878D9EFE8AE2C52A8C8 /* fs_icon_wave_0@2x.png in Resources */,
+				D7F0D412FFF3F226EAE7F8D2 /* fs_icon_wave_1@2x.png in Resources */,
+				8C7DB5D53D88CFFCF1310FDB /* fs_icon_wave_2@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F70485793340D3D1785D38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D714C880E7F9148DC24771F7 /* fs_chat_bubble@2x.png in Resources */,
+				2D767C07011241DA0B0E3478 /* fs_icon_wave_0@2x.png in Resources */,
+				F93CA02D79EC2B72460D4D80 /* fs_icon_wave_1@2x.png in Resources */,
+				C5692EA19EA7C01D649E8BF2 /* fs_icon_wave_2@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64AC434CE2BFC978484FB873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B95AD4D4C8E2DE7CE8C2B36 /* FSVoiceBubble.m in Sources */,
+				025969398BAA1C3B1F45295B /* Pods-FSVoiceBubble-FSVoiceBubble-dummy.m in Sources */,
+				B160662E59FFB6A1977242D2 /* UIImage+FSExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739BE1A555977F8AF188AA4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFDC62F5A0D8D1C794454557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A88053141F21DEF0CA87EFC0 /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB82B83A13F9FE645821D94F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CC400DC4A100C6A8D49F98 /* Pods-FSVoiceBubble-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E287AD463B1B8794AE69F172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6130FB8AD532ED4A7F91832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37019FDC33517753CE58F3BA /* FSVoiceBubble.m in Sources */,
+				E71DAB3D36059F97E334A1ED /* Pods-Tests-FSVoiceBubble-dummy.m in Sources */,
+				1774040A32661F6B819F82C0 /* UIImage+FSExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		242C1F268BD599C6F57A9149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FSVoiceBubble-FSVoiceBubble-FSVoiceBubble";
+			target = 239B4B41A9E3E8CC38106ED0 /* Pods-FSVoiceBubble-FSVoiceBubble-FSVoiceBubble */;
+			targetProxy = 0F08B11D176FE9C5BBBB30CD /* PBXContainerItemProxy */;
+		};
+		718537669A7C126D08A53D71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-FSVoiceBubble-FSVoiceBubble";
+			target = 52903C80C771E832485F8FF7 /* Pods-Tests-FSVoiceBubble-FSVoiceBubble */;
+			targetProxy = 3629841C08DAD225B638D23F /* PBXContainerItemProxy */;
+		};
+		B156B26921B7CC371D107E45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-FSVoiceBubble";
+			target = E5D215C3D4A50C4E83807167 /* Pods-Tests-FSVoiceBubble */;
+			targetProxy = FE3214B73ED3B23E651D2323 /* PBXContainerItemProxy */;
+		};
+		C7E8B105572A1CBFC889E83B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FSVoiceBubble-FSVoiceBubble";
+			target = A3B8F87B6F4254C552FCD410 /* Pods-FSVoiceBubble-FSVoiceBubble */;
+			targetProxy = 57437B9AF314CE123175FFB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17E6E2130DA80A9A8B2A3A9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FF9161C8624EE2E6A3469D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF69CEABCEC2E675646727C2 /* Pods-FSVoiceBubble.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		46C960A7B66B909D58E946B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = FSVoiceBubble;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5E58874733272F8C56ABBE21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 814A00C5BA53D890CB370468 /* Pods-Tests-FSVoiceBubble-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-FSVoiceBubble/Pods-Tests-FSVoiceBubble-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		62DCA623D24D09AD1001EFCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = FSVoiceBubble;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		63863C9DC31C5328D3AB4901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60F6B28E6674284059CA9EA4 /* Pods-FSVoiceBubble-FSVoiceBubble-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FSVoiceBubble-FSVoiceBubble/Pods-FSVoiceBubble-FSVoiceBubble-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6ABE1AE188E7E58EC0A8990D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60F6B28E6674284059CA9EA4 /* Pods-FSVoiceBubble-FSVoiceBubble-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FSVoiceBubble-FSVoiceBubble/Pods-FSVoiceBubble-FSVoiceBubble-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		88B5CE0384D75B88B867DA72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08AD132B798AB10A37BCEEBA /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8F2F9487C303F418BE4C7FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F793FC06FEB89D90723A9C50 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9BDC74302C16D6ADED7AA6F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A02F664F52CD2B5A0FD55BEF /* Pods-FSVoiceBubble.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B5F55D86CDE6B37E7F75F586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = FSVoiceBubble;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E001D264A013C44FDAB053EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E4A7140EF6568A51CD7810BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = FSVoiceBubble;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E74B355E78D34A02B848BB5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 814A00C5BA53D890CB370468 /* Pods-Tests-FSVoiceBubble-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-FSVoiceBubble/Pods-Tests-FSVoiceBubble-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52C63128675580A9A32B8CE3 /* Build configuration list for PBXNativeTarget "Pods-FSVoiceBubble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BDC74302C16D6ADED7AA6F2 /* Debug */,
+				3FF9161C8624EE2E6A3469D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		766B1372BB5410101FB3463E /* Build configuration list for PBXNativeTarget "Pods-Tests-FSVoiceBubble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74B355E78D34A02B848BB5B /* Debug */,
+				5E58874733272F8C56ABBE21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EC8F042EE0D911468DFA65D /* Build configuration list for PBXNativeTarget "Pods-FSVoiceBubble-FSVoiceBubble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABE1AE188E7E58EC0A8990D /* Debug */,
+				63863C9DC31C5328D3AB4901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8324E24A70E54AA1533A00C4 /* Build configuration list for PBXNativeTarget "Pods-Tests-FSVoiceBubble-FSVoiceBubble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46C960A7B66B909D58E946B4 /* Debug */,
+				62DCA623D24D09AD1001EFCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C99DC58A2B9642F7AC475F5B /* Build configuration list for PBXNativeTarget "Pods-FSVoiceBubble-FSVoiceBubble-FSVoiceBubble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F55D86CDE6B37E7F75F586 /* Debug */,
+				E4A7140EF6568A51CD7810BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F36FA41E2A8E125AB4A11455 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B5CE0384D75B88B867DA72 /* Debug */,
+				8F2F9487C303F418BE4C7FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF755B8C294CB20A47540A89 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E001D264A013C44FDAB053EF /* Debug */,
+				17E6E2130DA80A9A8B2A3A9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F49123F4EAD21BF3DE5452D1 /* Project object */;
+}
